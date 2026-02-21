@@ -1,0 +1,13 @@
+.my-btn{
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    outline: none;
+    padding: 18px 42px;
+    color: #fff;
+    letter-spacing: 0.09em;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 200px;
+}
