@@ -1,0 +1,84 @@
+.banner {
+  background: url("../../assets/images/banner-image-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+.carousel-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.carousel-img{
+  text-align: center;
+  width: 50%;
+}
+
+.carousel-content h1 {
+  letter-spacing: 0.03em;
+  font-size: 57px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: var(--secondary-color);
+  word-spacing: 2px;
+}
+
+.carousel-content p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.prev {
+  left: 40px;
+}
+
+.next {
+  right: 40px;
+}
+
+.btn-jump{
+    max-width: 220px;
+}
+
+.img-custom{
+    width: 598px !important;
+    height: 648px !important;
+}
