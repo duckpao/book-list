@@ -1,4 +1,4 @@
-.banner {
+ .banner {
   background: url("../../assets/images/banner-image-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,4 +81,6 @@
 .img-custom{
     width: 598px !important;
     height: 648px !important;
-}
+} 
+
+

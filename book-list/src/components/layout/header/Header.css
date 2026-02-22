@@ -1,0 +1,204 @@
+/* ================= TOP BAR ================= */
+.top-bar {
+  background: #f7f7f7;
+  font-size: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-now {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ================= MAIN HEADER ================= */
+.main-header {
+  background: #fff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+/* LOGO */
+.logo img {
+  height: 45px;
+}
+
+/* ================= NAVIGATION ================= */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-weight: 500;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #f25c5c;
+}
+
+.nav-menu .active {
+  color: #f25c5c;
+}
+
+/* ================= DROPDOWN ================= */
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 0;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  animation: fadeIn 0.2s ease;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.dropdown-menu a:hover {
+  background: #f7f7f7;
+  color: #f25c5c;
+}
+
+/* ================= ICONS ================= */
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+/* ================= ANIMATION ================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  .nav-menu {
+    display: none;
+  }
+}
+/* DROPDOWN WRAPPER */
+.nav-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Trigger */
+.dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: 0.3s;
+}
+
+.dropdown-trigger.active {
+  color: #f25c5c;
+}
+
+/* MENU */
+.dropdown-menu {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 230px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px 0;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  animation: fadeDropdown 0.2s ease;
+  z-index: 999;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: #444;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.dropdown-menu a:hover {
+  background: #f7f7f7;
+  color: #f25c5c;
+}
+
+/* Animation */
+@keyframes fadeDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.icon-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.icon-with-dropdown {
+  position: relative;
+}
+
+.cart-count {
+  margin-left: 6px;
+  font-size: 13px;
+  color: #333;
+}
