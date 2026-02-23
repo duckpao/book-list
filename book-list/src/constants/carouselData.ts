@@ -1,6 +1,6 @@
-import banner1 from '../assets/images/banner-image.png'
-import banner2 from "../assets/images/banner-image1.png";
-import banner3 from "../assets/images/banner-image2.png";
+import banner1 from '@/assets/images/banner-image.png'
+import banner2 from "@/assets/images/banner-image1.png";
+import banner3 from "@/assets/images/banner-image2.png";
 
 export interface CarouselItem {
   id: string;

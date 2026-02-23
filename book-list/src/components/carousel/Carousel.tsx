@@ -3,8 +3,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Container, Image } from "react-bootstrap";
 import Button from "../button/Button";
 import { useState } from "react";
-import { carouselData } from "../../constants/carouselData";
-  import { useEffect } from "react";
+import { carouselData } from "@/constants/carouselData";
+import { useEffect } from "react";
+
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,7 +31,7 @@ useEffect(() => {
 }, []);
   return (
     <div className="banner">
-      <Container>
+      <Container style={{maxWidth: "1540px"}}>
         <div className="carousel">
           <div className="carousel-viewport">
             <div

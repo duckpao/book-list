@@ -1,5 +1,5 @@
 import "./Features.css"
-import { featuresData } from "../../constants/featuresData"
+import { featuresData } from "@/constants/featuresData"
 import { Row, Col } from "react-bootstrap"
 
 const Features = () => {
