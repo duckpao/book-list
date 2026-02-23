@@ -51,14 +51,14 @@ export const productData: ProductData[] = [
         images: [Product4],
         discount: 10
     },
-    // {
-    //     id: "5",
-    //     title: "The Story Of Success",
-    //     author: "Lauren Asher",
-    //     price: 125000,
-    //     rating: 5,
-    //     images: [Product5],
-    //     discount: 10
-    // }
+    {
+        id: "5",
+        title: "The Story Of Success",
+        author: "Lauren Asher",
+        price: 125000,
+        rating: 5,
+        images: [Product5],
+        discount: 10
+    }
 ]
 
