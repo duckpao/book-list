@@ -1,0 +1,20 @@
+.features{
+    padding: 60px 0;
+}
+
+.features-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-item{
+    padding: 8px;
+    display: flex;
+    align-items: start;
+    gap: 12px;
+}
+
+.features-title{
+    font-size: 24px;
+    font-weight: 600;
+}
