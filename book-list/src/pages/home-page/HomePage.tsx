@@ -11,8 +11,8 @@ const HomePage = () => {
         <Carousel />
         <Container style={{ maxWidth: "1540px" }}>
           <Features />
-          <Selling />
         </Container>
+        <Selling />
         <Discount />
       </div>
     );

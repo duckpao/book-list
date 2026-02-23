@@ -58,7 +58,7 @@ useEffect(() => {
         </div>
       </Container>
       <div className="prev" onClick={handlePrev}>
-        <ChevronLeft size={75} strokeWidth={1} />
+        <ChevronLeft size={80} strokeWidth={1} />
       </div>
       <div className="next" onClick={handleNext}>
         <ChevronRight size={80} strokeWidth={1} />
