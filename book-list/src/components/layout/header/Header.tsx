@@ -24,7 +24,10 @@ const Header = () => {
     <>
       {/* TOP BAR */}
       <div className="bg-light py-2 border-bottom small">
-        <Container className="d-flex justify-content-between">
+        <Container
+          style={{ maxWidth: "1540px" }}
+          className="d-flex justify-content-between"
+        >
           <div>Need any help? Call us 112233344455</div>
           <div>
             Summer sale discount off 60% off!
@@ -41,7 +44,7 @@ const Header = () => {
 
       {/* MAIN NAVBAR */}
       <Navbar expand="lg" bg="white" className="py-3 shadow-sm">
-        <Container>
+        <Container style={{ maxWidth: "1540px" }}>
           {/* Logo */}
           <Navbar.Brand onClick={() => navigate("/")}>
             <img src={logo} alt="logo" height="40" />
@@ -120,7 +123,7 @@ const Header = () => {
                   variant="link"
                   className="p-0 border-0 shadow-none"
                 >
-                  <Heart size={20} />
+                  <Heart size={20} style={{ color: "black" }} />
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="p-4" style={{ width: 320 }}>

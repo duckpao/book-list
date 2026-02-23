@@ -35,8 +35,6 @@ const SellingCard = ({
                         <div className="selling-action-item">
                             <Heart />
                         </div>
-
-
                     </div>
                 </div>
                 <div className="selling-card__content">

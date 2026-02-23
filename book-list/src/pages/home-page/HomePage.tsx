@@ -9,7 +9,7 @@ const HomePage = () => {
     return (
         <div>
             <Carousel />
-            <Container>
+            <Container style={{maxWidth: "1540px"}}>
                 <Features />
                 <SectionTitle content='View All' title='Best selling items' />
                 <Selling />

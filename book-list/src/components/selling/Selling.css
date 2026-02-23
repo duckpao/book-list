@@ -1,16 +1,15 @@
 .selling{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .selling-card{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 264px;
     border: 1px solid #e5e5e5;
-    padding: 20px;
+    padding: 15px;
     border-radius: 12px;
 }
 
