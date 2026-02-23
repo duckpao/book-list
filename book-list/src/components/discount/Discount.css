@@ -1,0 +1,29 @@
+.discount-banner{
+    background: url("../../assets/images/banner-image-bg-1.jpg");
+    padding: 126px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.countdown-timer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.discount-img{
+    max-width: 727px;
+}
+
+.discount-img img{
+    width: 100%;
+}
+
+.countdown-title{
+    font-size: 56px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    letter-spacing: 0.09px;
+}

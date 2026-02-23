@@ -1,25 +1,17 @@
 .selling{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 120px 0px;
 }
 
-.selling-card{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: 1px solid #e5e5e5;
-    padding: 15px;
-    border-radius: 12px;
-}
 
 .selling-card__image{
     position: relative;
+   
 }
 
 .selling-card__image img{
     width: 100%;
     cursor: pointer;
+    transition: transform 0.4s ease;
 }
 
 .selling-card__title{
@@ -49,18 +41,47 @@
     color: var(--primary-color);
 }
 
-.selling-action{
+.selling-card{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+ 
+}
+
+.selling-card:hover .selling-action {
+  transform: translateY(-10px) scale(1);
+  opacity: 1;
+}
+
+.selling-action {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 15px;
+  transform: translateY(15px);
+  opacity: 0;
+
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.3s ease;
 }
 
 .selling-action-item{
-    padding: 15px;
+    padding: 20px;
     color: white;
-    background-color: var(--secondary-);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.selling-action-item:hover{
+    background-color: var(--primary-color);
 }

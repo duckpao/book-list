@@ -30,7 +30,7 @@ useEffect(() => {
 }, []);
   return (
     <div className="banner">
-      <Container>
+      <Container style={{maxWidth: "1540px"}}>
         <div className="carousel">
           <div className="carousel-viewport">
             <div
