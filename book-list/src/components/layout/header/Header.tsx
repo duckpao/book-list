@@ -11,7 +11,7 @@ import {
 import { Search, User, Heart, ShoppingCart } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../../assets/images/main-logo.png";
+import logo from "@/assets/images/main-logo.png";
 import SignIn from "./SignIn";
 
 const Header = () => {

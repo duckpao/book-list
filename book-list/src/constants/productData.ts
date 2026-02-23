@@ -1,8 +1,8 @@
-import Product1 from "../assets/images/product-item1.png"
-import Product2 from "../assets/images/product-item2.png"
-import Product3 from "../assets/images/product-item3.png"
-import Product4 from "../assets/images/product-item4.png"
-import Product5 from "../assets/images/product-item5.png"
+import Product1 from "@/assets/images/product-item1.png"
+import Product2 from "@/assets/images/product-item2.png"
+import Product3 from "@/assets/images/product-item3.png"
+import Product4 from "@/assets/images/product-item4.png"
+import Product5 from "@/assets/images/product-item5.png"
 
 export interface ProductData {
     id: string

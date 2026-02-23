@@ -1,5 +1,5 @@
 import "./Discount.css"
-import Banner from '../../assets/images/banner-image3.png'
+import Banner from '@/assets/images/banner-image3.png'
 import {Container, Row, Col} from "react-bootstrap"
 import Countdown from "../countdown/CountDown";
 import Button from "../button/Button";

@@ -1,7 +1,8 @@
 import SellingCard from "./SellingCard"
-import { productData } from "../../constants/productData"
+import { productData } from "@/constants/productData"
+import SectionTitle from "@/components/section-title/SectionTitle";
 import "./Selling.css"
-import SectionTitle from '../../components/section-title/SectionTitle';
+
 const Selling = () => {
     return (
       <>
