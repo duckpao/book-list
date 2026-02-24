@@ -22,16 +22,16 @@ const Carousel = () => {
   };
 
 
-useEffect(() => {
-  const interval = setInterval(() => {
-    handleNext();
-  }, 5000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 5000);
 
-  return () => clearInterval(interval);
-}, []);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="banner">
-      <Container style={{maxWidth: "1540px"}}>
+      <Container>
         <div className="carousel">
           <div className="carousel-viewport">
             <div

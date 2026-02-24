@@ -6,16 +6,16 @@ import { Container } from "react-bootstrap"
 
 
 const HomePage = () => {
-    return (
-      <div>
-        <Carousel />
-        <Container style={{ maxWidth: "1540px" }}>
-          <Features />
-        </Container>
-        <Selling />
-        <Discount />
-      </div>
-    );
+  return (
+    <div>
+      <Carousel />
+      <Container >
+        <Features />
+      </Container>
+      <Selling />
+      <Discount />
+    </div>
+  );
 };
 
 export default HomePage;

@@ -6,7 +6,7 @@ import {
   Badge,
   Modal,
   Offcanvas,
-  Button,NavDropdown
+  Button, NavDropdown
 } from "react-bootstrap";
 import { Search, User, Heart, ShoppingCart } from "lucide-react";
 import { useState } from "react";
@@ -25,7 +25,7 @@ const Header = () => {
       {/* TOP BAR */}
       <div className="bg-light py-2 border-bottom small">
         <Container
-          style={{ maxWidth: "1540px" }}
+
           className="d-flex justify-content-between"
         >
           <div>Need any help? Call us 112233344455</div>
@@ -44,7 +44,7 @@ const Header = () => {
 
       {/* MAIN NAVBAR */}
       <Navbar expand="lg" bg="white" className="py-3 shadow-sm">
-        <Container style={{ maxWidth: "1540px" }}>
+        <Container >
           {/* Logo */}
           <Navbar.Brand onClick={() => navigate("/")}>
             <img src={logo} alt="logo" height="40" />
