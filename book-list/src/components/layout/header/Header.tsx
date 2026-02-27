@@ -13,6 +13,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "@/assets/images/main-logo.png";
 import SignIn from "./SignIn";
+import "./Header.css"
 
 const Header = () => {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ const Header = () => {
   return (
     <>
       {/* TOP BAR */}
-      <div className="bg-light py-2 border-bottom small">
+      <div className="top-bar bg-light py-2 border-bottom small">
         <Container
 
           className="d-flex justify-content-between"

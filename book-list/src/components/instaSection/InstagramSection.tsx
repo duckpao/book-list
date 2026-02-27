@@ -25,7 +25,7 @@ const InstagramSection = () => {
 
         <Row className="g-4">
           {images.map((img, index) => (
-            <Col lg={2} md={4} sm={6} xs={6} key={index}>
+            <Col lg={2} md={4} sm={6} xs={12} key={index}>
               <div className="insta-card">
                 <img src={img} alt="instagram" />
                 <div className="insta-overlay" />

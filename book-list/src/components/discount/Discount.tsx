@@ -9,13 +9,13 @@ const Discount = () => {
     <div className="discount-banner">
       <Container>
         <Row className="align-items-center">
-          <Col lg={7}>
+          <Col lg={7} md={12}>
             <div className="discount-img">
               <img src={Banner} alt="" />
             </div>
           </Col>
 
-          <Col lg={5}>
+          <Col lg={5} md={12}>
             <div className="countdown-timer">
               <h2 className="countdown-title">
                 30% Discount on all items. Hurry Up !!!

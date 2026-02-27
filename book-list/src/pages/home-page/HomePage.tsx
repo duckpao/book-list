@@ -7,6 +7,7 @@ import ProductColumns from '@/components/product-columns/ProductColumns';
 import Categories from '@/components/categories/Categories';
 import LatestPosts from '@/components/latestPosts/LatestPosts';
 import InstagramSection from '@/components/instaSection/InstagramSection';
+import Reviewer from '@/components/reviewer/Reviewer';
 
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Categories/>
 
       {/* //cho hieu lam phan banner */}
+      <Reviewer />
       <LatestPosts/>
       <InstagramSection/>
     </div>

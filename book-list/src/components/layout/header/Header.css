@@ -126,6 +126,8 @@
   .nav-menu {
     display: none;
   }
+
+
 }
 /* DROPDOWN WRAPPER */
 .nav-dropdown {
@@ -201,4 +203,11 @@
   margin-left: 6px;
   font-size: 13px;
   color: #333;
+}
+
+@media (max-width: 576px) {
+  .top-bar{
+    display: none;
+  }
+
 }

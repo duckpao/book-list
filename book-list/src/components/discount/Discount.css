@@ -1,29 +1,103 @@
-.discount-banner{
-    background: url("../../assets/images/banner-image-bg-1.jpg");
-    padding: 126px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+/* ===============================
+   DISCOUNT SECTION
+================================= */
+
+.discount-banner {
+  background: url("../../assets/images/banner-image-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 126px 0;
+  position: relative;
 }
 
-.countdown-timer{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+/* ===============================
+   IMAGE
+================================= */
+
+.discount-img {
+  max-width: 727px;
 }
 
-.discount-img{
-    max-width: 727px;
+.discount-img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.discount-img img{
-    width: 100%;
+/* ===============================
+   COUNTDOWN CONTENT
+================================= */
+
+.countdown-timer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
-.countdown-title{
-    font-size: 56px;
-    color: var(--secondary-color);
-    font-weight: 600;
-    letter-spacing: 0.09px;
+.countdown-title {
+  font-size: 56px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+
+/* ===============================
+   TABLET
+================================= */
+
+@media (max-width: 992px) {
+
+  .discount-banner {
+    padding: 90px 0;
+  }
+
+  .discount-img {
+    max-width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .countdown-timer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .countdown-title {
+    font-size: 36px;
+  }
+}
+
+
+/* ===============================
+   MOBILE
+================================= */
+
+@media (max-width: 576px) {
+
+  .discount-banner {
+    padding: 60px 20px;
+  }
+
+  .discount-img {
+    margin-bottom: 35px;
+  }
+
+  .countdown-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .countdown-timer {
+    gap: 20px;
+  }
+
+  /* button full width */
+  .countdown-timer > div {
+    width: 100% !important;
+  }
 }

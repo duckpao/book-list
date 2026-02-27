@@ -1,6 +1,6 @@
 import "./Carousel.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Container, Image } from "react-bootstrap";
+import { Container, Image} from "react-bootstrap";
 import Button from "../button/Button";
 import { useState } from "react";
 import { carouselData } from "@/constants/carouselData";

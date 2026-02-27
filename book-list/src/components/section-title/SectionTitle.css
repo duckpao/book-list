@@ -13,3 +13,11 @@
 .section-btn{
     max-width: 300px;
 }
+
+@media (max-width: 576px) {
+
+.section-title-wrapper{
+    align-items: start;
+    flex-direction: column;
+}
+}
